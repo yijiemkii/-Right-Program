@@ -1,0 +1,1180 @@
+﻿TERM,CORE/ELECTIVE,Track,No.,,Title,Description
+5,core,,FUQINTRD,532Q,CAPSTONE PROJECT,"In this capstone, students will work in teams to apply what they have learned in the MQM program to a real-world problem. Analyses will be presented to an audience of peers and faculty."
+5,core,,MGMTCOM,508Q,Business Communication 2,"Explores techniques to help students learn how to effectively interact in the business environment. Building on Business Communication 1, this course will provide additional opportunities to develop presentation and career management skills. We will explore change management, cultural differences, and interviewing skills."
+4,core,,DECISION,521Q,Decision Analytics and Modeling,"Decision Analytics and Modeling. Objectives. Successful management requires the ability to recognize a decision problem, understand its 
+essential features, and make a smart choice. However, many decision problems – particularly those 
+involving uncertainty or many variables – are difficult to grasp intuitively. In these cases, we may benefit 
+from using a computer-based model to explore and evaluate the possibilities in a systematic fashion. 
+This course introduces several commonly used modeling frameworks and provides an introduction to 
+the art and science of modeling decisions. The ideas and skills learned in this course are applicable in 
+most areas of business.
+The course is divided into three parts. In the first part, we discuss the use of decision trees for 
+structuring decision problems under uncertainty. In the second part, we discuss Monte Carlo simulation, 
+a technique for simulating problems with many uncertainties. In the third part, we discuss optimization, 
+an approach for finding the best possible solution in problems with many decision variables and 
+constraints. 
+Throughout the course, we will use Microsoft Excel as a modeling environment, using add-in programs 
+as necessary. Basic familiarity with Excel is an important prerequisite for this course.
+Format. The classes will use a variety of different formats, including lectures, case discussions, computer 
+demonstrations, and in-class exercises. To effectively master the material, you must ""roll up your 
+sleeves"" and work on problems. In addition to the assignments, there are a number of problems in the 
+course pack and on Canvas that you may find useful.
+Teams. You should work with your assigned teammates on the graded assignments (the three cases), 
+and turn in a joint submission for these assignments. All students in each team should contribute to 
+their team’s work, and take responsibility for all analysis submitted by their team. In particular, each 
+member of the team should be able to explain their team’s work to the whole class when prompted. For 
+the short assignments, you may work with your teammates and help each other out, but (unless 
+otherwise instructed), each student should build their own model and submit their own write-up.
+Grading. Your grade will be based on the following:
+• Cases (3 graded cases; 15% each and 45% total). There will be 3 graded case exercises with due 
+dates listed on the schedule. You are to work in your teams on these cases. I will randomly 
+select teams to present the cases in class on the day they are due.
+• Final Exam (40%). The final exam is set during the exam period. In the exam there will be one 
+question for each of the three main topics of the course and you will need the three software 
+2
+tools that we use in the course to complete the exam. The exam is to be completed individually 
+and will be open book, open notes, and will require the use of a computer.
+• Class Participation (15%). In addition to the graded cases, I will ask you to complete short 
+assignments for most classes; these will be discussed in class the day they are due. You may 
+work with your teammates to complete these, but you will typically be asked to submit 
+something individually. These assignments will be graded informally and, in general, I will not 
+provide much feedback on these. The goal of these short assignments is to provide a foundation 
+for your learning so it is important that you make an effort to complete all of these assignments.
+In addition to preparing these assignments, there will be a variety of opportunities to contribute 
+in class, including active participation in class discussions (e.g., asking good questions or 
+providing good answers to questions) and presenting work on the assignments and cases.
+Letter grades will be assigned according to Fuqua's recommended grade distribution for core courses.
+Course Materials. The course pack contains textbook chapters for each of the three main parts of the 
+course; these are supplementary readings that are drawn from several different textbooks. I will also 
+hand out materials (e.g., copies of slides used in the class, assignments) in class throughout the term. 
+The materials handed out in class will also be available on Canvas, usually shortly before or after class.
+Solutions to all cases and assignments will be made available on Canvas shortly after the end of the class 
+in which they are due. 
+Software. As indicated earlier, the course emphasizes the use of spreadsheets in modeling. I will assume 
+that you have access to Microsoft Excel and are reasonably proficient with Excel. For those who want 
+extra practice with Excel, the Software Resources page on Canvas provides a set of Excel proficiency 
+exercises with solutions.
+We will supplement Excel with different add-ins for the different parts of the course. All add-ins are 
+available on the Software Resources page on Canvas.
+• For decision trees, we will use TreePlan. This is an Excel macro that you can download and add 
+to your Excel add-ins. TreePlan documentation is also available on Canvas.
+• For simulation, we will use Crystal Ball. The program requires installation; the installation file 
+and license code are available on Canvas. Crystal Ball comes with extensive documentation.
+• For sensitivity analysis, we will sometimes use a package called SensIt. Like TreePlan, SensIt is an 
+Excel macro that you can add to your Excel add-ins.
+• For optimization, we will use Solver. This program comes with Microsoft Excel; please be sure it 
+is activated (Excel Options -> Add-ins -> Manage Excel Add-ins -> Check the box for Solver).
+We will use Excel 2019 on Windows 10 in the classroom; all of these add-ins are backward compatible 
+with Excel 2016. TreePlan, SensIt, and Solver also work with Excel for the Mac, but Crystal Ball does not. 
+These programs are all installed on Fuqua's lab computers.
+Note to Mac users: “virtual machines” are available through Duke OIT to provide users remote desktop 
+access to a Windows 10 machine. These are easy to install: see “Duke OIT Virtual Computing Manager 
+for Virtual Machine” at https://it.fuqua.duke.edu/software.htm .
+Since not all add-ins are compatible with Macs, Mac users should install a virtual machine through Duke 
+OIT before the start of the course unless they have a reliable Windows virtual machine already.
+3
+In addition to the software documentation, we have videos for each program that go through example
+problems in detail. We will also have some TA-led ""lab sessions"" where you can bring a laptop and 
+follow along in person. These sessions will also include examples using R. (Details TBA on Canvas.)
+Communication. I will use Canvas and email for various purposes:
+• Canvas. I will use Canvas to post nearly all class-related files, such as lecture notes, assignments, 
+data files for the assignments, and example files used in class. The Canvas pages also provide 
+additional problems, solutions to textbook problems, links to the software and documentation, 
+among other things. I may occasionally post announcements to Canvas for a variety of logistical 
+matters related to the course.
+• Email. Feel free to send me email. However, if you have a question about an assignment, you 
+should check the Canvas announcements first to see if the answer has already been posted.
+You are expected to check email and Canvas regularly.
+Office Hours. I will have office hours Wednesdays and Fridays from 1-2pm on Zoom. The link is: 
+https://duke.zoom.us/j/91363817265?pwd=bE11ai9xYm9IZ0d5Ujc4RjUwd2ZOQT09
+This link is also available on Canvas. If you need to set up another time to meet or would like to meet in 
+person, please email me and we can make arrangements to do so.
+Missing Class. I expect you to attend class. If you must miss class for some reason, please report your 
+absence using the “Class Absences” feature on Canvas. I expect you to complete your assignments in a 
+timely manner even if you have to miss a particular class. I also may call a team to present a case or 
+assignment even if some members of the team are absent. Note on Zoom etiquette: the same principles 
+for classes on Zoom apply – you should be “present” in class with your video turned on and engaged in 
+our discussion and you should report any absences to these classes on Canvas.
+Classes will be recorded and available for live-stream using Duke's Panopto system. Panopto is not a 
+perfect substitute for class but provides a useful backup option and also gives you the ability to review 
+the concepts and tools we have discussed in class.
+If you are not feeling well or are experiencing any COVID-19 symptoms, please err on the side of caution 
+and use the Panopto live-stream option. Please also report your absence as usual on Canvas.
+Honor Code. All students are expected to comply with Fuqua's Honor Code. In particular, you may not 
+discuss case assignments or share materials with students outside your team. You may not use materials 
+from people who took this course in previous years or similar courses elsewhere. Please pay careful 
+attention to the instructions for the assignments. For graded cases, you may work in your teams and 
+hand in one write-up. For other assignments in the course, you may work with your teammates but will 
+typically need to build your own model and provide your own write-up. The final exam is individual work 
+only. If you are unclear about the instructions on any assignment, please ask me for clarification.
+Classroom Norms. This class acknowledges Fuqua's classroom norms (see, e.g., 
+https://sites.duke.edu/daytimembapolicies/academic-policies/). I expect you to follow these norms.
+Note on laptops: Consistent with Fuqua’s classroom norms, all electronic devices should typically be off 
+during class. As you will submit your work electronically on Canvas, I will allow the use of laptops or 
+tables to refer to your submitted work during the discussion of the short assignments and cases. These 
+devices should be closed once we complete the discussion of the assignment in question.
+4
+DECISION 521Q: Decision Analytics and Modeling
+2021-2022 (Spring 1) Schedule
+Day Part I: Decision Trees Assignment
+1. January 13 (Thu) Introduction and course logistics
+Elements of a decision problem; Cobalt
+Decision tree basics; TreePlan
+Prepare Kite Pharma case 
+discussion
+2. January 18 (Tues) Discuss Zephtrix Engineering
+Sensitivity analysis; Value of information
+Prepare Zephtrix Engineering 
+exercise 
+3. January 20 (Thu) Discuss value of information exercises
+Risk attitudes and utility functions
+Prepare value of information 
+exercises
+4a. January 24 (Mon) Gillette vs. Energizer presentations Prepare Gillette vs. Energizer 
+case (graded)
+Part II: Monte Carlo Simulation
+4b. January 24 (Mon) Introduction to simulation 
+Using Crystal Ball
+5. January 27 (Thu) Discuss retirement planning exercise
+Interpreting simulation outputs 
+Prepare retirement planning 
+exercise
+6. January 31 (Mon) Discuss TB portfolio exercise
+Choosing probability distributions
+Prepare the TB portfolio 
+exercise
+7. February 3 (Thu) Discuss American Airlines exercise
+Identifying important uncertainties
+Utilities in simulation
+Prepare American Airlines
+exercise
+8. February 7 (Mon) Discuss Galileo (A)
+Modeling dependence
+Modeling downstream decisions
+Prepare Galileo (A) case
+9a. February 10 (Thu) Galileo (B) case presentations Prepare Galileo (B) case 
+(graded)
+Part III: Optimization
+9b. February 10 (Thu) Introduction to optimization 
+and Solver
+10. February 14 (Mon) Discuss optimization exercises
+Sensitivity analysis 
+Prepare optimization
+exercises
+11. February 17 (Thu) Discuss school assignment exercise
+Integer and nonlinear programming
+Prepare school assignment 
+exercise
+12. February 21 (Mon) Grupo Nogueira case presentations 
+Course wrap-up 
+Discussion of the final
+Prepare Grupo Nogueira case 
+(graded)
+Final Exam: to be completed during the final exam period. More information TBA and will be available 
+on Canvas"
+4,core,,MANAGEMT,543Q,Navigating Organizations,"Navigating Organizations. Course Overview
+Your ability to navigate your way through the social landscape in your organization will 
+affect your ability to get your job done and to advance in your career. To navigate 
+organizations successfully, it is critical to be able to (1) understand the dynamics of 
+power, (2) have the ability to influence others, and (3) be an effective negotiator. In this 
+course, we will focus on developing your skills in these three areas. 
+Power helps people to accomplish their goals and to pursue the things that they care 
+about in life. In this course, we will explore the nature of power, how individuals utilize 
+power to get things done, and how power affects people. The course aims to help you 
+improve your ability to diagnose the underlying distribution of power in social contexts,
+identify strategies for building sources of power, and develop techniques for influencing 
+others. 
+Negotiation is the art and science of securing agreements between two or more 
+interdependent parties. This course will help you to understand the theory and processes 
+of negotiation as practiced in diverse settings, recognize the components of an effective
+negotiation, and analyze your own behavior in negotiations. 
+The course will be largely experiential, giving you an opportunity to develop your skills 
+by participating in numerous exercises and simulations enabling you to integrate your 
+experiences with the principles presented in the readings and class discussions.
+Your outcomes for the negotiations and simulations will be posted so that the class can 
+analyze the relationship between different strategies and outcomes and learn from 
+everyone’s experiences. This course is a great opportunity to experiment and to make 
+mistakes in a low-risk environment. Your actual negotiation and simulation outcomes 
+will not affect your grade. 
+2
+Honor Code
+The Fuqua Honor Code standards generally apply in this course as follows:
+• You are expected to be prepared and on time for class sessions.
+• All individual graded assignments should be prepared individually and without the 
+use of materials from outside the course.
+• You may not have a notebook, notes, papers, or cases from someone who has taken 
+this course in the past. After you have completed the course, you may not give your 
+notebook, notes, papers, or cases to anyone who might be taking the course in the 
+future.
+• You may not share or discuss any of the debriefing materials with students in sections 
+that meet after yours until after they have completed the class session themselves.
+• For negotiations and other simulations, you may not show your confidential role 
+instructions to classmates who are assigned to a different role. 
+Required Course Materials
+Course Packet (CP) (includes cases and readings).
+Additional materials will be distributed during the course and posted to the 
+course website.
+Many of your in-class exercises will be run on an online platform called 
+iDecisionGames.com (IDG). You will use this platform to receive your role instructions 
+and submit your outcomes. You will receive instructions for registering for the platform 
+shortly after the course begins. It is your responsibility to obtain course materials 
+according to the instructions you will be given so that you are prepared for the next class. 
+Because role information is confidential, it cannot be posted on the course website or 
+included in the course packet. 
+Attendance Policy
+Attendance is required in this course. There are two reasons for this. The first is that the 
+in-class negotiations and exercises are an important component of the course – they are 
+necessary for learning and developing negotiation and influence skills. The second is that 
+if you are absent, one or more of your classmates will not have a counter party with 
+whom to negotiate or a complete group for the simulation, which will negatively impact 
+their learning experiences. 
+Thus, you are expected to participate in all class exercises. If you know that you will need 
+to miss a class, please let the instructor know as soon as possible to respect and protect 
+your classmates’ learning experience. Missing class without notifying the instructor will 
+result in a penalty to your grade. Lack of preparation or lateness for an exercise will be 
+treated as an absence for that exercise. 
+3
+Course Requirements
+It is your responsibility to follow the course schedule (pages 5-9) and keep track of the 
+due dates and submission procedures for all graded assignments. Late submissions will 
+incur a grade penalty. 
+1. Participation (25% of course grade)
+Class participation is an important part of the learning process in this course. This portion 
+of your grade will be based on your engagement and participation in the class sessions. 
+Exercises will be debriefed with the class and includes sharing information about your 
+experiences, results, strategies, and reactions to the process. You will be evaluated based 
+on your contributions, insights, and presence during the class simulations, discussions,
+and debriefing sessions. In addition to being willing to share your experiences if called on 
+by the instructor or your classmates, you can contribute to the discussion by (1) providing 
+analytical comments; (2) offering insightful and constructive critiques of others’ 
+contributions; 3) proposing different, but relevant, perspectives; 4) moving the discussion 
+and analysis forward; 5) building on other comments; 6) applying concepts learned in 
+class to your own experiences; 7) asking other students interesting questions to get a 
+deeper understanding of their experience and perspectives; and 8) offering integrative 
+comments across cases, exercises and discussions. 
+To give everyone a chance to contribute to the class discussion, and to involve a diversity 
+of perspectives in the conversation, I will do some “warm calling.” To help you prepare 
+for class discussions, there will be a set of preparation questions based on the assigned 
+case readings. These questions are listed in the course schedule and on the course 
+website.
+In addition, the following behaviors will reflect positively on your participation grade: 
+attending class regularly, letting the instructor know in advance if you expect to be absent 
+from class (so she can adjust the group assignments for the in-class simulations), 
+following classroom etiquette (e.g., arrive to class on time, be back on time after the 
+break), and refraining from disruptive behaviors (e.g., disappearing from the simulation 
+or class discussion before the end of class). These helpful behaviors facilitate the flow of 
+activities during class and contribute to a high-quality experience for all students in the 
+course.
+2. Reflection Paper (25% of course grade)
+After the in-class simulation for Class 9, you will write a 3-5 page paper reflecting on 
+your experience using the reflection questions provided as a guide. These papers should 
+be prepared individually and will be due on February 14, by 10am, and should be 
+submitted via the course website. 
+What I am looking for here is that you engage genuinely and meaningfully in your 
+reflection and that you have learned something from your experience with it and from 
+writing about it afterwards. Demonstrate your ability to understand what happened and 
+why and bring insight to the situation. It will be helpful to you to try to use the course 
+4
+concepts to understand and analyze your experience. Please also include whether or not 
+you are comfortable sharing your reflections with the class during our class discussions.
+5. Final Exam (50% of course grade)
+The final exam will provide you with an opportunity to integrate the concepts you have 
+learned in the course. It is closed book and will be completed individually during the final 
+exam period scheduled for this class. More information on the exam will be discussed 
+later in the course"
+3,core,,DECISION,522Q,Data Visualization,"Course Description  
+The key characteristic that differentiates effective data analysts from ineffective analysts is the ability to 
+communicate the practical implications of data. Even the most sophisticated statistical analyses are not useful to a 
+business if they do not lead to actionable advice, or if the answers to those business questions are not conveyed in 
+a way that non-technical people can understand. Great analysts can explain the significance of any analyses or 
+statistical model to any audience member. Data visualizations are one of the most powerful tools in an analyst’s 
+communication toolbox. In this course, you will learn how to use Tableau software and best visualization practices 
+to uncover and communicate the significance of your data most efficiently through data stories.  
+ 
+Creating effective visualizations is only one piece of an analysis pipeline and the success of the visualization 
+process is contingent on what happens before and after the visualizations are made. This course will therefore 
+make sure you understand and practice the role of asking good questions, leveraging structured analysis plans, 
+creating logically-valid arguments, and telling persuasive stories.  
+ 
+Learning Objectives  
+This course is focused on three communication areas critical to analyst success:  Question Design, Data 
+Visualization and Story Presentation.    
+  
+By the end of this course your analysis capabilities will be enhanced to enable you to: 
+•  identify audiences to craft questions ensuring your analysis projects yield actionable results;  
+•  leverage questions to design logical and structured analysis plans;  
+•  utilize Tableau to create the best visualizations for business analysis;  
+•  design effective business dashboards with Tableau;  
+•  create logical and unbiased, compelling stories with data;  
+•  design effective presentations to showcase your data story; and  
+•  deliver persuasive business presentations that leverage data visualization.  
+   
+Course Structure  
+The course and assignments will include a diverse set of activities, including:  
+•  Class time dedicated to discussing and applying principles of data visualization to real business scenarios 
+and analyses.  This will also include sharing and dialogue around individual and group assignments. 
+•  Individual and/or Group assignments will be given for each class, based on the Monday/Thursday 
+schedule a “Think Like an Analyst” assignment will be assigned on Mondays and a more comprehensive 
+practical assignment will be assigned on Thursdays.  
+•  An individual assignment will also be to provide an analysis of one of the Group’s Final projects. 
+•  No quizzes will be administered unless assignments are not being completed and/or there is low 
+engagement in class participation.  
+•  A Group Project will culminate with final project presentations due on the final Thursday of Class.  
+•  A Final Exam designed to evaluate your comprehension of the learning objectives and prepare you for the 
+first Tableau Qualification Exam will be administered during finals week. 
+ 
+Preparing for Class and Classroom Norms  
+It is critical that you engage fully in all class discussions and activities. We will be covering a large amount of 
+material that can only be mastered with practice, and you will only get that practice if you are committed to 
+getting the most out of each assignment and exercise. You will be expected to arrive at class on time with all 
+assignments completed. Due to the dynamic nature of the classroom activities, there will be no mechanism for 
+making up classes that you miss.  
+ 
+Standard Fuqua classroom norms will be enforced. We will be completing exercises in every class that require your 
+computer.  Outside of the assigned times, absolutely no electronic devices can be used in class (including 
+computers, tablets, e-readers, or cell phones), and all cell phones should be turned off completely rather than set 
+on vibrate or silent. If there is a special circumstance requiring you to have your cell phone on during class, please 
+speak to Mr. Gartner before class begins.  
+ 
+Fuqua Honor Code  
+The Fuqua School of Business Honor Code applies to all aspects of this course. Although the curriculum will 
+strongly encourage you to use outside resources to explore aspects of Tableau not explicitly covered in class or 
+assignments, you are not allowed to use outside resources during tests. Each assignment will indicate the type of 
+communication and consultation that is permitted. Work that is described as an individual effort is to be your work 
+alone, without consultation or assistance from any other student. Work that is described as a team effort is to be 
+your team’s effort alone, again without consultation or assistance from anyone else. If you are uncertain about the 
+nature of any assignment, please ask the instructor in advance. No quizzes, assignments, or cases are to be 
+discussed outside of the classroom or team until they have been graded for all sections.  
+ 
+Assignments and Group Project  
+Instructions and due dates for all assignments will be posted on the course website.  
+ 
+The Group Final Project due date will be posted on the course website.  It will require you to develop a 10-minute 
+video presentation.  The presentation will tell a persuasive story and share the analysis you completed in Tableau.  
+A two-page summary white paper describing the details of your analysis and conclusions will also be required.  It is 
+strongly encouraged that your team begin working on your analysis as soon as the data set is posted, because you 
+will not be able to complete the project successfully if you leave it to the last week.  
+ 
+  
+Grading  
+Course grades will be based on the following weighting scheme:  
+ 
+Assignments - 30% 
+Think Like an Analyst – Small Assignments:   30% of Assignments Grade   
+  Grading Scale:   
+    0 – Work Not Completed 
+    1 – Work Not Fully Completed 
+    2 – Work Completed  
+    3 – Work Completed Exceptionally 
+Comprehensive Practical - Assignments:  60% of Assignments Grade 
+  Grading Scale:   
+    0 – Work Not Completed 
+    1 – Work Not Fully Completed 
+    2 – Work Completed  
+    3 – Work Completed Exceptionally 
+Analyze the Analyst – Group Project Review:  10% of Assignments Grade 
+  Grading Scale:   
+    0 – Work Not Completed 
+    1 – Work Not Fully Completed 
+    2 – Work Completed  
+    3 – Work Completed Exceptionally 
+ 
+Class Participation - 10%  
+In order to accommodate different classroom participation preferences, class participation is not based 
+on the number of times you contribute. Instead, it’s based on adherence to classroom norms, respect for 
+your fellow classmates, and case preparation. I will cold-call in the course, for which you will be prepared 
+if you complete the graded assignments. 
+ 
+Group Final Project: 30%  
+Grading Rubric 
+  Exceptional Question Design 30% 
+Focused Relative to the Selected Role 
+Clearly Defined  
+Measurable 
+Provide a Depth of Understanding 
+Questions Drive Analysis 
+Audience Focused Data Visualization 40% 
+Overall Dashboard Design 
+Diversity and Accuracy of Chart Types Used 
+Use of Emphasis Elements 
+Use of Interaction 
+Visualizations Do Not Introduce Bias 
+Engaging and Persuasive Story Presentation 30% 
+Story is Audience Focused 
+Presentation shares a Cohesive Story 
+Presentation Delivery is Audible and Engaging 
+Participation by All Team Members  
+ 
+ 
+Final Exam: 30%  
+ 
+As advised by the Fuqua School of Business Grading Policy, approximately 25% of students will receive an SP, 40% 
+of students will receive an HP, and 35% of students will receive a P. Students will receive an LP or F, if necessary.  
+ 
+Course Materials  
+There will NOT be a course packet for this course, and there is a REQUIRED TEXTBOOOK. All of the assignments, 
+materials, and data sets used for the course will be available on the Canvas course website at 
+https://fuqua.instructure.com. We will be using the course website frequently, so please refer to the website on a 
+regular basis. You are responsible for monitoring the Course announcements. I recommend that you have the 
+Canvas announcement notifications set to “Notify me right away” (this is the default) to help you stay up to date.  
+ 
+Required Textbook: 
+Information Dashboard Design: Displaying Data for At-a-Glance Monitoring Second Edition 
+Stephen Few, O’Reilly Media (2013)  
+ 
+Although not required for this course, the following books are also useful resources about data visualization:  
+Storytelling with Data  
+Cole Nussbaumer, Wiley (2015)  
+The Visual Display of Quantitative Information  
+Edward Tufte, Graphics Press, 2nd Edition (2001)  
+ 
+The following blogs and websites are also helpful:  
+The Information Lab Blog (https://www.theinformationlab.co.uk/category/blog/)  
+Makeover Monday Project by Andy Kriebel and Eva Murray (http://www.makeovermonday.co.uk/)  
+University of Washington Interactive Data Lab (http://idl.cs.washington.edu/about)  
+VizWiz by Andy Kriebel (http://www.vizwiz.com/)  
+Storytelling with Data by Cole Nussbaumer (http://www.storytellingwithdata.com/)  
+Data Revelations by Steve Wexler (http://www.datarevelations.com/)  
+Perceptual Edge by Stephen Few (http://www.perceptualedge.com/blog/)  
+Flowing Data by Nathan Yau (the Tutorials section; http://flowingdata.com)  
+Evergreen Data by Stephanie Evergreen (http://stephanieevergreen.com)  
+ 
+You are strongly encouraged to use outside resources to help you practice using Tableau throughout the course. 
+The Tableau Community Website (https://www.tableau.com/community) provides a wealth of tutorials and is a 
+great place to ask specific questions. If you would like to try something that hasn’t been taught explicitly through 
+the course materials, a quick web search will also likely lead you to supplementary instructions.  
+ 
+Additionally, you can make appointments with the course TAs or Duke Library Data and Visualization Services 
+(https://library.duke.edu/data/data-visualization) for targeted help with specific questions. "
+3,core,,MANAGEMT,545Q,Ethical & Legal Issues of Data Analytics,"Catalog Description This course provides an introduction to the legal, policy, and ethical implications of data. The course will 
+examine legal, policy, and ethical issues that arise throughout the full lifecycle of analytics from 
+collection, to storage, processing, analysis and use, including, privacy, surveillance, security, classification, 
+discrimination, decisional-autonomy, and duties to warn or act. Case studies will be used to explore these 
+issues across various domains.  
+Learning Outcomes 1. Develop the ability to think broadly and critically about the ethical, legal, and social implications 
+of analytics. 
+2. Develop the ability to anticipate, identify, and resolve ethical and legal issues as they arise in 
+analytics. 
+3. Develop the ability to communicate clearly and confidently about ethical and legal issues in 
+analytics. 
+Faculty Bio  Joshua August Skorburg holds a PhD in Philosophy with specializations in ethics and moral psychology. 
+At Duke, he has taught in the MQM program for four years and in addition to Fuqua, he has taught in 
+the Department of Philosophy, the Kenan Institute for Ethics, and the Social Science Research Institute 
+(specifically, the Master in Interdisciplinary Data Science program). He is Assistant Professor of 
+Philosophy and Academic Co-Director of the Centre for Advancing Responsible and Ethical Artificial 
+Intelligence (CARE-AI) at the University of Guelph, in Ontario, Canada. His work is both theoretical 
+and empirical, and focuses on ethical and legal issues related to emerging technologies. He has taught a 
+range of courses in formal logic, informal logic, critical thinking, ethical theory, moral psychology, 
+business ethics, and medical ethics. 
+Class Policies The course website is on Canvas at https://fuqua.instructure.com. All course material will be available 
+there. In general, you should: 
+1. Complete readings before class. 
+2. Submit writing assignments before the deadline. 
+3. Show up to class on time. 
+4. Be present and engaged 
+   
+ 
+2 
+ 
+MQM (MANAGEMENT 545Q) 
+Ethical & Legal Issues of Data Analytics: Fall 2, 2021  
+Late Work  This course moves quickly and it is important that you complete the assignments on time. Thus, late 
+work will not be accepted. All of your assignments must be uploaded to Canvas. Assignment 
+submissions will close at the deadline specified in the schedule below. When uploading assignments, you 
+should leave yourself time to account for technical difficulties (e.g., don’t wait to submit your assignment 
+two minutes before the deadline). “There was a problem with my internet” or “Canvas wasn’t working” 
+are (almost never) acceptable excuses. That said, if you foresee a potential issue with turning in an 
+assignment on time (such as an interview, wedding, funeral, etc.), let me know in advance and we can 
+work out a mutually agreeable solution.  
+Attendance You are expected to attend every class and be actively engaged throughout the class.  
+Assignments Your grade in the class is comprised of four components: (1) Weekly Responses, (2) Group White Paper, 
+(3) Final Exam, (4) Attendance/Participation. 
+ 
+1. Weekly Responses (20% of final grade; see schedule for due dates) 
+Each week, you will submit a written response of around one page. The deadlines are indicated in the 
+schedule below. Your responses should be about the UPCOMING week’s reading. The responses are 
+intended to (1) demonstrate your engagement with the materials and (2) help guide the lectures toward 
+topics of most interest and relevance to you. The content of the response is up to you, but all responses 
+should engage the assigned reading or class discussion with some topical issue in ethics and analytics. 
+You might identify additional issues raised by the reading, or by current events related to the readings. 
+You might briefly argue in favor or against a position presented in the reading. You might make an 
+argument for why an author is wrong about something, or develop a counterexample to their argument. 
+You might relate some aspect of the reading to your professional or academic experience. These 
+responses are a way to demonstrate your wider engagement with the course themes, so they should not 
+be mere summaries of the reading. I care much more about the quality of your responses than the 
+quantity. Finally, your responses will guide what we address in class, and I will sometimes quote from 
+them, so please take them seriously. You can access the grading rubric for weekly responses on Canvas, 
+and each week, I will post a few exemplars to help you improve your writing. 
+ 
+2. Group White Paper (35% of final grade; (due: 11:59 PM, Saturday 20 November) 
+ 
+Your group assignment for this course is a white paper. The primary purpose of the white paper is to 
+position your group as a thought leader with respect to increasingly hot-button issues in data ethics. That 
+is, your white paper should demonstrate that your group has taken seriously - not just given lip service to 
+- the ethical, legal, regulatory, political, etc., issues in analytics that are likely to arise in your work within 
+your functional track (finance, forensics, marketing, strategy). The white paper should be no more than 6 
+pages in length (including references) and it should incorporate themes, concepts, distinctions, case 
+studies, and materials from the course as they relate to your group’s track. The grading rubric is available 
+on Canvas, and we will discuss successful writing strategies in class. Please plan to leave your group 
+   
+ 
+3 
+ 
+MQM (MANAGEMENT 545Q) 
+Ethical & Legal Issues of Data Analytics: Fall 2, 2021  
+enough time to polish the final product. Your grade will reflect both the team submission (everyone on 
+the team receives the same grade) as well as your peer-review at semester’s end (individual quality and 
+effort). 
+ 
+3. Final Exam (35% of final grade) 
+The date/time of the final exam for this course is TBD. Exam questions will cover all material from the 
+required, assigned readings, as well as the in-class lectures and exercises. More details about the exam will 
+be discussed in class. 
+ 
+4. Attendance/Participation (10% of final grade) 
+Important parts of your learning in this course will take place through class discussion. Attending classes 
+and being prepared to discuss the cases are essential. Because of this, it is not possible to make up for an 
+absence.  In exceptional circumstances, I will assess on a case-by-case basis for those instances where a 
+student has to miss a class. In order to accommodate different preferences and learning styles, class 
+participation is not based (solely) on the number of times you contribute. Instead, it’s based on 
+adherence to classroom norms, respect for your fellow classmates, and case discussions. I will cold-call in 
+the course, for which you will be prepared if you complete the readings and engage with the lectures and 
+cases. Part of your participation grade will also be determined by the quality of your group work in doing 
+in-class case studies. In general, students will receive high grades for participation, so long as they do not 
+provide reason to deduct points (e.g. showing up late, being distracted, being disrespectful, poor 
+contributions, etc.) 
+Grading  This course follows the recommended grade distribution or “curve” for core courses: SPs (4.0) are given 
+to the top 25 percent of the class, HPs (3.5) to the next 40 percent, and Ps (3.0 or less) or below to the 
+remaining 35 percent.  
+Re-grading This course involves ethical and legal reasoning, so the instructor will be responsive to arguments and 
+reasons. Please note, however, that there is a subjective element to grading. To help alleviate this, we will 
+grade according to a defined rubric and will also verify the scores by ensuring the rubric grades are 
+consistent with the performance ranking within the class. Because of this, there is not room for grades to 
+be changed unless we misunderstood something that was clearly explained. But in the rare event you 
+think your grade should be changed, here is the re-grading policy: First, you must submit a re-grade 
+request to me via e-mail, which contains the following: (1) Your original submission, (2) Your original 
+grade, and (3) most importantly, a detailed argument – with reasons and evidence to support the conclusion 
+that the grade should be changed. For example, “I think I deserve a higher grade” is not a (good) reason. 
+“The feedback on my paper indicated that I did not discuss the distinction between X and Y. But on the 
+second page, I do use examples A and B to illustrate the distinction between X and Y” is a (much better) 
+reason. I will not consider a re-grade request unless it contains all of these elements. After you submit a 
+re-grade request with the following elements, I will review your request and let you know about my 
+decisions (and the reasons for it). 
+   
+ 
+4 
+ 
+MQM (MANAGEMENT 545Q) 
+Ethical & Legal Issues of Data Analytics: Fall 2, 2021  
+Reading There is no assigned textbook for this course. All of the readings will be posted on Canvas. It is 
+important to note at the outset that some of the readings for this course may be longer and denser than 
+you are used to. But an important skill for you going forward will be an ability to skim, and extract the 
+gist from, long and dense material. Thus, I usually recommend a two-step approach: First, read through 
+the entirety of the article. Don’t get hung up or linger too long on something that you don’t understand. 
+Simply flag the places where something is noteworthy, or where you get stuck. Just push through the 
+reading until you have a general understanding of what’s at stake. Then, take 2-3 minutes (no more!) and 
+write down your main takeaways. Second, take a break. Go for a walk. Have a snack. Then return to the 
+places you flagged as noteworthy or difficult. Re-read them quickly. Then, take another 2-3 minutes (no 
+more!) and re-visit, and re-write the main takeaways. 
+Honor Code Duke University’s Fuqua School of Business Honor Code applies at all times and can be viewed at 
+http://www.fuqua.duke.edu/student_resources/honor_code/. Please note: It is your responsibility to 
+understand and ask for clarifications if you don’t fully understand anything related to the application of 
+Honor Code in this class. I will spend as much time as needed to answer your questions.  
+Course Structure In general, we will divide our meetings each week in two components. The first component of each week 
+will consist (mainly, but not entirely) of a lecture on the assigned material. The second component will 
+consist (mainly, but not entirely) of analysis, discussion, and presentation of case studies. In general, the 
+lecture component will provide the conceptual tools and frameworks which will then be put to work in 
+the case study component. Structuring the meetings in this way is meant to: (1) Facilitate the application 
+of ethical and legal concepts to concrete examples, (2) Develop skills in group deliberation and team-
+based problem solving, (3) Practice these skills in an on-the-fly setting. "
+2,core,,DECISION,520Q,Data Science for Business,"Course Overview 
+This course will investigate how data can be used to directly impact business decisions. The volume, 
+variety and velocity associated with currently available data motivate an important paradigm for data-
+driven decision-making in business. Beyond extracting information from data, and creating data-driven 
+real-time autonomous decision making systems, the data itself should be thought of as an asset for 
+current and future use.  
+In this course, we will study the core ideas behind data science, challenges associated with data, and the 
+interplay between data science and business decisions. We will focus on (i) general principles that are 
+long lasting despite of the rapid changing technology; (ii) specific algorithms/technologies that are 
+currently being used in many industries; and (iii) “hands-on” analyses of actual datasets to develop 
+methodologies. A variety of real life examples will be discussed such as customer retention, health risk 
+prediction, social media analysis, online advertisement, text mining, and data mining contests. 
+ 
+Ultimately, the course aims to develop “data-analytic” thinking. This should enable you to evaluate how 
+data can improve performance, identify opportunities, and assist in decision making for managers. The 
+understanding of the principles of data mining techniques will allow you to interact effectively with 
+experts/consultants, and to quickly conduct pilot studies.  
+ 
+Prerequisites and Audience 
+The course is designed for students with solid understanding of probability and statistical concepts. All 
+Fuqua students that have passed the core statistics requirement DECISION 610: Probability and Statistics 
+(or were exempt/conditionally exempt) have the necessary background for this course. (Exchange 
+students should contact the instructor prior registering to the course.) The insights developed 
+throughout the course should benefit everyone in a management role. 
+ 
+ 
+Format and Expectations 
+Throughout the course, students are expected to come to class prepared. This typically implies achieving 
+a good understanding of the material covered in previous classes as well as of the assigned readings. The 
+classes will use a variety of different formats including lectures, discussions, cases and in-class exercises. 
+In class, we will also run algorithms on business data sets to illustrate the principles and interpret the 
+analysis to obtain a relevant business insight/recommendation. Class attendance is expected. If you 
+cannot attend class, you are still responsible to complete your assignments in a timely manner.  
+ 
+We want to focus on data science concepts and its use so I strongly encourage students to learn the 
+foundations of R and get familiar with the software BEFORE starting the class. This is not a class on R, 
+but we need it to do the analysis. You should install R (and I also recommend R Studio) as soon as 
+possible and get familiar with it.  
+ 
+Keep in mind that there is a simple R preassignment that I expect students to go over before our first 
+class.  
+ 
+Class Participation and Conduct 
+Your class participation will be evaluated subjectively, but will rely upon measures of punctuality, 
+attendance, and the relevance/insight of class participation. Your class participation will be judged by 
+what you add to the class environment, regardless of your technical background.  In general, questions 
+and comments are encouraged.  
+Consistent with Fuqua Classroom Norms, we have the following policies: 
+• Students are expected to arrive promptly and be ready for class to start on time and to stay for 
+the entire class. 
+• Laptops, e-pads, and smartphones are not to be open in the classroom. 
+• Cell phones and PDAs are not to be used or permitted to ring in the classroom. 
+• Students are expected to attend all classes. 
+• Maintenance of a professional atmosphere by using respectful comments and respectful humor. 
+• Refraining from distracting or disrespectful activities (e.g., avoiding side conversations and 
+games). 
+• Courtesy towards all participants in the classroom. 
+• Observance of the most conservative standards when one is unsure about which norms apply. 
+Please refer to the Fuqua Classroom Norms materials for more details (see below).  Violations of these 
+policies will be marked. Three or more violations will result in an automatic penalty of a letter grade. We 
+ask that you use a name card for all class sessions. 
+ 
+ 
+ 
+ 
+Course Materials 
+ 
+The main course materials are the pre-assignment package, lectures handouts, readings, cases, and 
+lecture slides that are posted online. Additionally, the following book is required: 
+Data Science for Business, Provost and Fawcett, Ed. O’Reilly.ISBN: 978-1-449-36132-7. 
+This reference contains a high-level exposition of the principles and business applications of data mining. 
+It is a great resource to read prior to class. Classes have more in-depth analysis but the book provides an 
+excellent introduction to the topics discussed in class. The book was designed for MBAs and it matches 
+well the flow of topics of the course. 
+A much more technical book for which some chapters might be used as additional reading is  
+Computer Age Statistical Inference, Bradley Efron and Trevor Hastie 
+(https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) 
+Additional reading materials will be distributed as appropriate. The class readings serve primarily as 
+background for class discussions. You may be able to complete all of the assignments without doing any 
+reading, but you should consult the readings if you need more information on a particular topic. 
+Finally, to help with the software we will use in the class, I recommend:  
+R for everyone, Jared P. Lander, Ed. Addison Wesley. ISBN: 978-0-321-88803-7. 
+It will provide you with a good introduction and reference for many things we will do in class. 
+ 
+Computing and Software 
+The course will have a “hands-on” component and given the data sets we will analyze, computing 
+becomes a basic component of the course. We will use state-of-the-art implementations that are 
+available through R.  
+Data scientists speak the language of R. R is a free, open-source statistical computing environment, and 
+supported in both Windows and Mac. It has hundreds of thousands, if not millions, of users worldwide. 
+The largest companies in the world—including Google, Microsoft, Facebook, Merck, and Johnson & 
+Johnson—use R to do predictive analytics. Things that would take hours in a spreadsheet can be done 
+with a few lines of R. Moreover, R has thousands of the leading statistical algorithms available through 
+the Comprehensive R Archive Network (CRAN). In many cases, these packages were written by the 
+academician or practitioners who invented the original algorithm. No commercial package provides 
+access to such a wide range of high-quality algorithms. 
+Because we will use R for analysis in this course, I want to offer a few thoughts about working in a 
+programming environment. Many students who take the course will have no prior programming 
+ 
+ 
+experience. Their past experiences with statistical analyses will have been entirely in the Excel 
+environment (a point-and-click environment).   
+The course is designed to meet the needs of those with no prior programming experience. We will focus 
+on the insights you generate from running R code, not the code itself. Throughout the course we will be 
+provided with examples of codes that will allow you to quickly get familiar with R. However, be prepared 
+to spend time using R. Additional material will be provided during the course. 
+After each class you will receive an R code that delivers most (if not all) of what we cover in class. This 
+code will allow you to get started in analyzing the data in homework and cases. By running these codes, 
+you will learn R as you go through the course. Google will also be an invaluable tool as you try to 
+advance your R skills. In addition to the R book recommended above, a second source I recommend for 
+R is: R in a Nutshell by Joseph Adler, a senior data scientist at LinkedIn. This book is a powerful resource 
+for any data scientist. Furthermore, there is a variety of tutorials online like TryR code school. (Keep in 
+mind that I will provide a lot of the code but knowing the R syntax before will be extremely helpful.) 
+In addition to the documentation and files provided online, we will also hold TA office sessions that will 
+help with R as well. (Details will be announced.)  
+ 
+Course Grading 
+Letter grades will be assigned in accordance with Fuqua's recommended grade distribution for elective 
+courses. The relative contributions of different aspects of the course are as follows:  
+• final project (team) 30% 
+• cases (team) 30% 
+• online final exam and proposal evaluation (individual) 30%, and  
+• class participation (individual) 10%.  
+ 
+Late or inappropriately formatted assignments will have points deducted.  
+ 
+In the final project students will develop their own data mining application. Planning should begin as 
+soon as possible. Projects can range through a variety of practical applications. See the project 
+guidelines in the course site. 
+ 
+ 
+Online Tests 
+These are non-graded assignments intended to (i) provide a guided hands-on experience, (ii) check 
+conceptual concepts, and (ii) help prepare for the final. Although I strongly recommend students to first 
+attempt them alone (as the final will be individual), discussions with colleagues in your session is also 
+encourage.   
+ 
+ "
+2,core,,MANAGEMT,542Q,CRITICAL THINKING AND COLLABORATION,"Course Overview 
+To work with data requires being smart about data. Big data and powerful computing allows us to 
+“crunch numbers” endlessly. But what do the patterns mean? Do they answer a meaningful and well-
+defined question? What in fact is the right question to ask? What habits and assumptions blind us to 
+insights about data? 
+This course will complement your courses on data by exploring how the human mind works, including 
+when it works well and when we are systematically misled by our own cognitive failures. Building on 
+psychology and behavioral economics, this course will help you to develop insights about why decisions 
+can go wrong and what tools you can use to make better decisions. Often times, the best approach to 
+overcoming individual shortcomings is to collaborate with others. However, collaboration has its own 
+challenges. This course introduce you to the elements of a good team process, and address why 
+“constructive conflict” is important in teams.  
+This document contains an overview of exams, assignments, and course policies. For details on how to 
+prepare for individual class sessions, please see the course website on Canvas. 
+Required Reading 
+Readings for this course can be found in one of three places. The course website will indicate what to read 
+and prepare for each class session. The two books are available in both hard copy and digital formats 
+from sellers such as Amazon and Barnes & Noble. 
+ Readings from two books, referred to in Canvas as Sibony and Bergstrom & West. 
+o Sibony, O. (2019). You're About to Make a Terrible Mistake: How Biases Distort 
+Decision-Making and What You Can Do to Fight Them. New York: Little, Brown 
+Spark 
+o Bergstrom, C. T., & West, J. D. (2020). Calling bullshit: The art of skepticism in a data-
+driven world. New York: Random House. 
+ The course pack 
+ The course website 
+  
+Course Deliverables and Grading Breakdown 
+The following is a summary of course requirements that count toward your grade, each of which is elaborated 
+below. Additional assignments are listed are listed on the course website. 
+Requirement Weight 
+Quizzes and Exam  
+ 3 out-of-class quizzes during the term 15% 
+ Individual Final Exam (in class) 35% 
+ 
+Team Assignments   
+ Data visualization exercise 5% 
+ Calling BS exercise 5% 
+ Modeling judgment exercise 5% 
+ Team Case Analysis 20% 
+ 
+Participation  
+ Surveys and exercises 5% 
+ Class participation 10% 
+ 
+Each of these requirements is elaborated upon below. These elaborations are not intended to be full assignment 
+instructions. For every item below, detailed instructions will be distributed at the appropriate time.  
+Note: Assignments, course announcements, and materials will be available on the course website. We expect you 
+to check the website for information on a regular basis. 
+Exams 
+You will take quizzes and the final exam individually and within the guidelines of the Fuqua honor code.  
+The final exam time cannot be changed except for serious medical or personal emergencies. Please notify us as 
+soon as possible if such an emergency arises. 
+Details on the format of the exams will be provided in class.  
+Team Assignments  
+We encourage you to meet as a team throughout the term to study and review the concepts and tools presented in 
+the course. In preparing these assignments, your team should work independently of other teams.  
+Participation  
+Participation is comprised of (i) Surveys & Exercises and (ii) In-Class Participation. Throughout the course we 
+will have a number of web surveys and exercises. These surveys and exercises are designed to help you to think 
+through the materials prior to participating in class, and, in some cases, to reflect on your own experiences.  
+Completing them on time and in a thorough manner is a course requirement that will be factored into your 
+participation grade.  
+Because every class will be based on a collective analysis of a case, exercise, or readings, it is critical that you 
+attend class and come prepared to participate actively in the discussion.  Each class session will have its own page 
+on the course website. The materials and questions provided there will help you prepare both for class and the 
+exams. Learning for everyone in this class is enhanced through debate, different perspectives, and new insights 
+that come from you.   
+Keep in mind that your goals should be to contribute high quality comments, not high quantity.  You detract from 
+class discussion if you talk a lot and do not make a clear point. To contribute high quality comments, you must 
+also listen carefully to the comments of your classmates.  You should try to extend or qualify their comments 
+while avoiding repeating them.   
+Some examples of useful comments are ones that: 
+ Effectively apply class concepts to examples from a case  
+ Identify the critical factors that underlie an organizational issue or dilemma 
+ Offer important additional issues or conditions that qualify an analysis  
+ Present insightful examples from outside of class 
+ 
+To keep class conversations interesting and widely distributed across students, priority to those who have spoken 
+less. I may “cold call” to make sure that everyone contributes his or her knowledge and insights.  
+Absences. Class attendance is very important—you should be here on time for every class. Much of the class 
+material is conveyed in class lectures or case discussions, and this is difficult to recreate if you are absent, even 
+with someone’s class notes. Moreover, participation is an important part of this class, and attending class is one 
+aspect of participation. However, I understand that absences are sometimes unavoidable. Additionally, you should 
+complete all assignments due that day, and make sure that you obtain the handouts from the website. 
+Being late to class. Being on time to class is part of good participation. 
+ 
+Readings  
+Readings are provided to complement class material, not just regurgitate it. This means that although I will 
+certainly discuss some aspects of the readings in class, not everything we do in class will be echoed in the 
+readings, nor will I cover everything from the readings in class. You are responsible for the content of readings on 
+the quizzes and final exam. 
+The course website contains an overview of the readings for each class session. In some cases, questions are 
+included to help you reflect and prepare.  Please see the course website for details on each of the individual class 
+sessions.   "
+1,core,,DECISION,518Q,Applied Probability and Statistics,"Course Objectives:  
+ 
+Probability  and  statistics  are  fundamental  to  management  education.  Regardless  of  the  setting, 
+managerial decisions are made with partial information in environments characterized by uncertainty 
+and risk. This course introduces a framework for thinking about problems involving uncertainty and 
+develops tools for analyzing and interpreting data. The objectives of this course are to introduce you 
+to (i) data analysis tools that are appropriate for generating useful information for decision making 
+and (ii) a framework for analyzing decisions based on partial information. 
+ 
+A certain degree of technical analysis and computation are essential to understand quantitative analysis 
+issues and to be able to analyze information effectively. However, the focus of this course will be on 
+modeling and on the interpretation of quantitative analyses. This will allow us to use data analytics in 
+managerial decision-making. In other words, we will focus on what the analysis can do for us and not 
+just  on  learning  a  few  formulas  into  which  we  can  plug  numbers.  Sometimes  this  can  be  more 
+challenging  than  the  technical  and  computational  aspects.  The  emphasis  of  the  course  is  then  on 
+applying  concepts  rather  than  on  theoretical  developments.  The  goal  is  to  provide  an  appropriate 
+understanding of quantitative analysis to empower you with the knowledge and skills necessary for a 
+managerial career. Examples from financial analysis, marketing, operations management, etc. are used 
+to illustrate applications of the topics covered. The insights developed throughout the course should 
+benefit everyone in a management/data scientist role.  
+ 
+This course comprises of two major and somewhat overlapping modules: 
+ 
+Module 1. Descriptive Statistics:  
+Descriptive statistics focuses on the tools for describing and summarizing data in meaningful ways as 
+well as measuring and representing uncertainty with probability distributions and random variables. 
+Topics  in  descriptive  statistics  include  representing  data  through  numerical  summaries  and  graphs, 
+measuring  the  association  between  variables,  measuring  uncertainty  using  probability  rules  and 
+probability distributions. 
+ 
+Module 2. Inferential Statistics:  
+Inferential statistics focuses on using sample data to test hypotheses and make inferences about the 
+characteristics  of  a  population.  Topics  include  sampling,  estimating  population  parameters,  testing 
+hypotheses, and conducting regression analyses. Although the course is quantitative in nature, it is not 
+a  mathematics  course.  While  the  mathematical  ideas  are  briefly  explained  to  understand  the  logic 
+behind  the  analyses,  the  emphasis  is  on  applications  of  statistical  tools  and  their  uses  for  decision 
+making in managerial positions. 
+ 
+ 
+ Class Format:  
+ 
+The  course  is  conducted  as  a  series  of  lectures,  case  discussions,  and  in-class  exercises.  You  are 
+expected  to  come  to  class  prepared  and  to  adhere  to  the  classroom  norms.  Class  attendance  is 
+mandatory, and your active participation and engagement is a fundamental component of the learning 
+process.  You  are  encouraged  to  ask  questions  at  any  time  and  to  participate  in  the  discussion  of 
+questions raised by others. The material for this course cannot be effectively mastered only by reading 
+or  listening  in  class;  you  will  need  to  apply  the  concepts  by  attempting  and  solving  problems, 
+assignments,  and  cases.  Thus,  graded  individual  and  team  assignments  are  an  integral  part  of  the 
+learning process and of this course design. 
+ 
+ 
+Textbooks:  
+ 
+There are no required textbooks for this course as class handouts and diligent in-class notes should 
+suffice. However, students that feel the need to reinforce the course topics should consult a business 
+statistics textbook. One recommendation, with the explicit reading references available in the course 
+schedule, is  
+ 
+Business Statistics: A Decision-Making Approach 
+by Groebner, Shannon, and Fry (10th Edition, Pearson, ISBN-13: 978-0134496498).  
+ 
+It is advisable not to approach a textbook with the idea of reading one chapter at the time. Rather 
+make a note of the table of contents, and pick up the book to read 1-2 pages about a particular topic. 
+After  that,  you  may  want  to  glance  at  the  review  sentences  that  relate  to  that  topic,  problem  set 
+questions,  or  chapter-ending  questions.  Then  you  may  want  to  pick  another  topic,  and  focus  on 
+another 1-2 pages. 
+ 
+ 
+Software: 
+ 
+We  will  handle  the  necessary  computations  within  Microsoft  Excel.  We  will  use  the  built-in  Excel 
+statistical functions, and the Excel Add-In FSBstats. The school has a license that allows you to obtain 
+copies of FSBstats for use on your home computers. You are expected to become at least familiar with 
+FSBstats and, in particular, to be able to interpret its output.  
+ 
+While  the  Excel-based  FSBstats  provides  various  powerful  tools  for  analyzing  data,  more  advanced 
+applications  of  data  analytics  in  practice  involves  using  the  programming  language  R.  In  order  to 
+complement your learning of the computational skills and make you better prepared for future courses 
+at  Fuqua,  we  also  introduce  some  examples  of  R  in  this  course.  No  previous  exposure  to  R  or 
+programming will be assumed, and the course is intended to meet the needs of those with little prior 
+programming experience. Throughout the course, you will be provided with examples of code that 
+will allow you to quickly get familiar with R. 
+ 
+R is a free, open-source statistical computing environment, and supported in both Windows and Mac. 
+It  has  hundreds  of  thousands,  if  not  millions,  of  users  worldwide,  and  is  being  used  by  the  largest 
+companies in the world such as Google, Microsoft, and Facebook to do predictive analytics. R has 
+thousands  of  the  leading  statistical  algorithms  available  through  the  Comprehensive  R  Archive 
+Network  (CRAN).  In  many  cases,  these  packages  were  written  by  the  academician  or  practitioners 
+who invented the original algorithm. No commercial package provides access to such a wide range of 
+high-quality algorithms. 
+ 
+If you would like to use a free resource for learning R, the following website is a great choice: 
+ 
+https://r4ds.had.co.nz/index.html  
+(This is the website for the book “R for Data Science” by Hadley Wickham, and Garrett Grolemund.) 
+ 
+ 
+Individual Assignments:  
+ 
+Individual assignments consist of graded questions and exercises that make sure everyone understands 
+the material that is being presented and that everyone is prepared for the upcoming class. Individual 
+assignments are due online. The due dates are available on the course webpage. 
+ 
+ 
+Team Assignments:  
+ 
+Team assignments (cases) typically describe a complex situation in which applying concepts covered 
+in  the  course  is  necessary  to  structure  the  business  problem  at  hand,  as  well  as  to  support  the 
+managerial decisions you are asked to recommend. These assignments require a substantial amount of 
+work  and  are  to  be  conducted  in  teams.  They  are  designed  to  facilitate  learning  through  team 
+interaction,  so  equal  participation  and  engagement  of  all  team  members  is  expected  on  every 
+assignment. The team assignments are due online. Due dates are available on the course webpage. 
+ 
+ 
+Class Attendance/Participation: 
+ 
+All students are required to attend class sessions in person, and their attendance will be monitored by 
+the  TA.  The  only  exceptions  are  for  unavoidable  visa  issues  or  required  quarantine,  which  will  be 
+granted at the program level. 
+  
+Virtual Exemptions: 
+Exceptions to Classroom Norms/Participation requirements will be granted for the following reasons: 
+  
+• A student is facing unexpected and/or unavoidable immigration challenges. 
+• A student is required to be in isolation/quarantine due to health concerns. 
+  
+Virtual Exemptions must be granted at the programmatic level; please do NOT contact the instructor 
+if you have to miss a class. Please follow the instructions communicated to you by the programming 
+team. 
+  
+Your  individual  class  participation  will  be  evaluated  subjectively,  but  will  rely  upon  measures  of 
+punctuality, attendance, and the relevance/insight of class participation. Your class participation will 
+be judged by the quality rather than the mere quantity of your contributions to the class. (To that end, 
+questions  and  comments,  especially  those  that  help  facilitate  learning  and  the  overall  quality  of 
+coverage and discussions of course material, are encouraged.) 
+ 
+ 
+Final Exam:   
+There will be an individual final exam that covers material from the entire course. The date and the 
+format of the final exam will be announced during the term.  
+ 
+ 
+Course Grading:  
+ 
+Letter grades will be assigned in accordance with Fuqua's recommended grade distribution for core 
+courses. The relative contributions of different aspects of the course are as follows: 
+ 
+ Points Percentage 
+Individual Assignments 70 28% 
+Team Assignments 60 24% 
+Class Attendance/Participation 20 8% 
+Final Exam 100 40% 
+Total 250  
+  
+Missed assignments will receive zero points. 
+ 
+ 
+Strategies for Success: 
+ 
+ü Ignore preconceptions about statistics. 
+ü Complete required readings before each class, and spend enough time on assignments. 
+ü Do not fall behind. Revisit the topics discussed in the previous class. 
+ü Seek assistance. Take advantage of office hours and review sessions."
+1,core,,DECISION,519Q,Data Infrastructure,"Course Description 
+Data is ubiquitous. We constantly create and interact with data throughout our daily lives. The 
+business world attempts to draw insights from this data which shape decision-making at every 
+level of an organization. As data generation continues to exponentially grow, our ability to 
+access and manipulate data in a variety of formats will directly impact our capacity to harness its 
+power to answer questions of interest. 
+ 
+This course is designed as an introduction to data manipulation outside of an Excel spreadsheet. 
+In particular, we will spend a significant amount of time working with data stored in relational 
+databases. While “big” data has ushered in a new era of data storage and processing, relational 
+databases are still (and will continue to be) widely used. Further, the logic required to formulate 
+   
+ 
+MQM 2021 - 2022 
+Data Infrastructure (DECISION 519Q) 
+relational database queries (using SQL) will prove to be a useful foundation for data analysis in 
+other languages. 
+   
+We will additionally explore basic data analysis using Python, a flexible and powerful object-
+oriented programming language. Our main focus will be the “pandas dataframe.” 
+ 
+At the end of this course, I hope you will: 
+ 
+1. Understand the structure of a relational database and its associated benefits 
+2. Develop the ability to query and summarize data from multiple relational database tables 
+3. Gain a level of comfort using new data tools, software, and languages 
+4. Search for and synthesize information from the internet to solve problems 
+5. Appreciate the wide variety of options for data analysis 
+6. Become acclimated with data in different formats and how to pass data across platforms 
+7. Improve your overall data analysis skills 
+ 
+E-mail and Slack 
+For a variety of reasons, I hope to use Slack for all course-related communication during the 
+term. Slack is very user-friendly and should allow us to answer your questions and concerns 
+promptly. So, I ask that you try to use Slack (and avoid using e-mail) throughout the term. (And 
+I will introduce you to Slack during the first class, so no need to worry if you haven’t used it 
+before.) However, after the term, please do not hesitate to reach out to me for any reason at 
+ryan.burk@duke.edu. 
+ 
+Technology and Data 
+You will be required to have a laptop satisfying, at a minimum, the requirements specified at 
+https://it.fuqua.duke.edu/studentinfo.htm. Except for MySQL Workbench, all data utilized in 
+the course will be accessed through Canvas. On the course Canvas site we will provide software 
+(Jupyter) to connect to the data servers. I will provide separate instructions for downloading 
+and installing MySQL Workbench locally on your machine. You may download and install any 
+additional RDBMS/SQL/Python software on your machine but we will not be able to provide 
+technical support. 
+ 
+**Again, please note that unless otherwise stated, outside of coursework you will 
+not utilize any of the data from this class for any other reason. This is especially 
+true for the Dognition dataset. If I, the teaching assistants, or the IT department 
+detect any unauthorized access or usage you will automatically receive an F for 
+the course.   
+ 
+Grading 
+• R Proficiency Exam:  10% 
+• Class Participation/Norms: 5% 
+• In-Class Project:      10% 
+• Two Quizzes: 10% each x 2 =  20% 
+• Individual Homework:    20% 
+• Team Homework:    10% 
+• Final:    25% 
+   
+ 
+MQM 2021 - 2022 
+Data Infrastructure (DECISION 519Q) 
+I will follow the Fuqua Grading Policy in assigning individual grades.  Specifically, 
+approximately 25% of students will receive an SP, 40% of students will receive an HP, 35% of 
+students will receive a P, and students will receive an LP or F if necessary. 
+ 
+R Proficiency Exam (10%): This is your score from the R proficiency exam. 
+ 
+ Class Participation/Norms (5%): It is important that everyone participates for the 
+ class to be as beneficial as possible. I expect you to attend class regularly and on time, 
+ having prepared beforehand all assignments and (if applicable) readings. In the rare 
+ instances where you are unable to attend class, you will not be permitted to make-up 
+ participation. 
+ 
+ Fuqua classroom norms should be adhered to at all times. All cell phones should be 
+ turned off, not set on vibrate. If there is a special circumstance requiring you to have 
+ your cell phone on during class, please speak to me before class begins. You will need 
+ your laptop each class and may use it for taking notes on the lecture slides and 
+ writing/running code when we work through examples. You may NOT use your laptop 
+ for any other purpose during class (i.e. scrolling the ‘gram, managing your burgeoning 
+ TikTok empire, etc.).  
+ 
+ Please ask plenty of questions—it is not constructive for me to stand in the front of the 
+ room and talk “at” you for two hours. Effective communication is an incredibly 
+ important part of the program and business in general. That, very importantly, includes 
+ expressing yourself when you do not understand a topic or concept. 
+ 
+ Virtual Exemptions—exceptions to Classroom Participation/Norms requirements will 
+ be granted for the following reasons: 
+ 
+• A student is facing unexpected and/or unavoidable immigration challenges 
+• A student is required to be in isolation/quarantine due to health concerns 
+ 
+ Virtual Exemptions must be granted at the programmatic level. Please follow the 
+ instructions communicated to you by the programming team. 
+ 
+ 
+In-Class Project (10%): We will utilize one class period for a team project. To 
+simulate a real business environment, you will be deadline-constrained and will work in 
+your teams.   
+ 
+Quizzes (2 x 10% = 20%): There will be two multiple choice quizzes that will be 
+administered during class. You will NOT be able to use any outside resources while 
+taking the quizzes (i.e. you will not be allowed to access the course databases, search the 
+internet, look at lecture slides, check previous code you have written, or consult any 
+other resource). You may use blank paper/pencil for scratchwork. 
+ 
+Individual Homework (20%): There will be 4-5 individual homework assignments 
+throughout the term. Initially I will allow you to collaborate with your classmates as you 
+get your feet wet with SQL (although you will still need to submit an individual copy of 
+   
+ 
+MQM 2021 - 2022 
+Data Infrastructure (DECISION 519Q) 
+your work). However, later in the term you will be forced to work on your own. I will 
+provide explicit directions with each assignment. Homework will be graded for both 
+completeness and correctness. On each assignment a few (1-3) questions will be 
+randomly chosen and graded for correctness (i.e. we will run your code and see what it 
+generates). The remaining questions will be graded for completeness (i.e. you will receive 
+full credit as long as your query is “in the same ballpark” as the correct answer). You are 
+expected to submit all homework in Canvas by the specified deadline. LATE 
+HOMEWORK WILL NOT BE ACCEPTED. 
+ 
+Team Homework (10%):  There will be one team homework assignment similar to 
+the in-class project. Each team will submit a single deliverable by the specified deadline. 
+Separate teams cannot collaborate with one another. AGAIN, LATE HOMEWORK WILL 
+NOT BE ACCEPTED. 
+ 
+Final (25%): The final exam will be cumulative. The date and time are currently TBD.  I 
+will provide additional details towards the end of the term. "
+1,core,,MGMTCOM,507Q,Business Communication 1,"What is the purpose of the course?
+MGMTCOM 507Q introduces you to the foundations of effective business communication.  It focuses 
+on helping you communicate clearly, strategically, persuasively and collaboratively in professional 
+business settings.  During Summer Term you will learn and practice a variety of crucial 
+communication skills in small sections.  MGMTCOM 507Q gives you opportunities to focus on 
+individual goals for skill development.  Topics include strategic management communication; giving 
+and receiving feedback; researching companies; uses of influence and advocacy; individual and team 
+presentation skills; and knowing and using social styles; the value of inclusion and understanding 
+how unconscious biases can impact communication; and career management topics, such as creating 
+an informative resume, career assessment, informational interviews, selling your core message, 
+relationship building, and employment interviews. 
+What are the course goals?
+The course is designed to help you 
+ Understand the communication process and the strategic decisions necessary to communicate 
+with diverse audiences
+ Develop the ability to speak effectively and confidently in public situations
+ Persuade audiences using sound arguments based on reliable evidence
+ Understand the elements of a strategic communication campaign
+ Develop the skills necessary to be a discerning audience member and provide constructive 
+critiques for your peers' presentations
+ Develop the ability to give effective feedback to teammates about their performance during the 
+term
+ Identify your communication strengths and understand areas needing improvement as a result 
+of self-assessments and peer feedback.
+ Develop the skills necessary to conduct an effective and efficient job search.
+ Learn about the importance of unconscious bias and its effects on inclusion and the 
+communication techniques that can strengthen your ability to create an inclusive environment
+ Understand and communicate your social style to others and actively be able to adapt your 
+style to the needs of others in order to achieve effective and efficient communication.
+3
+When and where will you meet?
+MGMTCOM 507Q meets virtually twice each week in small classes via Zoom.  Small class meetings 
+provide opportunities for you to develop and present messages to peers.  Because improvements in 
+communication ability depend on feedback and individual attention, you will receive feedback from 
+your instructors and your peers.  In addition, the Career Management Center will provide important 
+sessions as part of the class to help you develop and hone skills you will need to conduct an effective 
+job search. These sessions are mandatory, and they will be conducted in larger group settings. 
+Consult your schedule grid and the course website on Canvas to ascertain where you need to 
+be, when you need to be there, and how you must prepare for each class.
+What materials are required?
+Please purchase this text before your first-class meeting and complete the reading assignments as 
+indicated in the syllabus (electronic format is acceptable):
+Ledden, Emma, The Presentation Book, 2nd Edition. New York: Pearson Education, 2017.
+How will your final grade be determined?
+The final grade for MGMTCOM 507Q: Business Communication 1 will have four components:
+Company Research Informational Presentation.  Deliver a five-minute presentation conveying 
+information about a company you have researched as preparation for an interview or a job search.  
+Make sure the information is relevant to your audience.  This component is 35% of your final 
+grade.
+Advocacy Presentations.  Teams will present their reasons to adopt a course of action using two 
+case scenarios and defend their positions against the arguments of another team.  This assignment 
+will include opportunities to demonstrate the ability to advance an argument for a certain course 
+of action, defend the proposal against the attacks of the other team, ask and answer questions 
+professionally, and work with teammates to persuade the audience using a coherent and thorough 
+argument. This assignment has both a team and an individual component. The team grade is 
+10% of your final grade. The individual grade is 35% of your final grade.
+Class Participation.  During the term, you will submit a variety of peer critiques using the feedback 
+techniques you learn in class, present several ungraded speeches, participate in all activities 
+related to conducting an effective job search, and participate in feedback discussions with your 
+teammates. You will be assessed on your level of participation, preparedness, and thoughtfulness 
+in accomplishing these tasks.  This component is 20% of your final grade"
